@@ -1,0 +1,83 @@
+# Built application / package outputs
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java / JVM class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle
+.gradle/
+**/build/
+build/
+
+# Keep Gradle wrapper jar (do not ignore)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration (SDK path, machine-specific)
+local.properties
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+.idea_modules/
+*.ipr
+*.iws
+
+# Android Studio navigation / editor state (if .idea is partially tracked)
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/render.experimental.xml
+
+# Keystores — never commit signing keys
+*.jks
+*.keystore
+
+# External native build / NDK / CMake
+.externalNativeBuild/
+.cxx/
+obj/
+
+# Captures from Android Studio
+captures/
+
+# Kotlin
+.kotlin/
+
+# Lint
+**/lint/intermediates/
+**/lint/generated/
+**/lint/outputs/
+**/lint/tmp/
+
+# Profiling / heap dumps
+*.hprof
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log / temp
+*.log
+*.tmp
+*.temp
+
+# Fastlane (if used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
